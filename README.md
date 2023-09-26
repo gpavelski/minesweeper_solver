@@ -12,6 +12,8 @@ Requirements:
 
 It relies on the [Arbiter](https://github.com/jkrshnmenon/arbiter) version of the game.
 It should be installed previously.
+It is also required to have Autohotkey installed for using the ahk library.
 
 This code basically reads the screen, processes the image, obtains a game matrix, make a decision (based on logic and probability), then outputs an action. This action is a click performed by AHK.
 The process iterates until the conclusion of the episode.
+The image processing step is based on pixel-value evaluation.
